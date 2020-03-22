@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 6 6" preserveAspectRatio="xMidYMid" style="background: gray">
+<defs>
+   <g id="dzial">
+    
+       //niebieski
+      <g transform= "rotate (0,1.8,3.9)">
+   <animateTransform attributeName = "transform" type = "rotate" from = "0,1.8,3.9" to = "360,1.8,3.9" dur = "10s" repeatCount="indefinite" /> 
+    <polygon points="2.1603875471609677,4.073553495647023 1.8890083735825258,4.289971164872729 1.5506040792565066,4.212732592987212 1.4,3.9 1.5506040792565066,3.587267407012788 1.889008373582526,3.5100288351272706 2.1603875471609677,3.7264465043529764" fill="blue"/>
+      </g>   
+       
+    //czerowny   
+      <g transform= "rotate (0,4.2,4.55)">
+   <animateTransform attributeName = "transform" type = "rotate" from = "0,4.2,4.55" to = "360,4.2,4.55" dur = "10s" repeatCount="indefinite" /> 
+      <polygon points="4.830678207531694,4.853718617382291 4.35576465376942,5.232449538527276 3.7635571386988866,5.097282037727621 3.5,4.55 3.7635571386988866,4.002717962272379 4.355764653769421,3.8675504614727236 4.830678207531694,4.246281382617709" fill ="red"/>
+         </g>
+       
+       
+   <rect width="2.5" height="0.15" transform = "translate (1.8,3.85) rotate (15)" fill="red" />
+   <polygon points="3,4.25 2.7,6 3.3,6" fill="blue" />
+    </g>
+</defs>
+
+<use xlink:href = "#dzial" /> 
+<use xlink:href = "#dzial" transform = "scale(0.5,0.5)" />
+<use xlink:href = "#dzial" transform = "scale(0.5,0.5) translate(7,-1)" />
+</svg>
